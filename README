@@ -1,0 +1,54 @@
+# Calculadora de Costos POS
+
+Herramienta de comparación y optimización de costos para diferentes proveedores de POS en Chile.
+
+## Características
+
+- Comparación de costos entre diferentes proveedores
+- Cálculos para débito, crédito y tarjetas prepago
+- Guardado local de configuraciones
+- Exportación de resultados a CSV
+- Actualización automática según valor UF
+
+## Instalación
+
+```bash
+# Clonar el repositorio
+git clone https://github.com/tu-usuario/pos-calculator.git
+
+# Entrar al directorio
+cd pos-calculator
+
+# Instalar dependencias
+npm install
+
+# Iniciar el servidor de desarrollo
+npm run dev
+```
+
+## Uso
+
+1. Ingresa el monto de la venta
+2. Selecciona el tipo de tarjeta
+3. Ingresa el valor actual de la UF
+4. Compara los resultados automáticamente
+5. Guarda configuraciones o exporta a CSV según necesites
+
+## Tecnologías
+
+- React
+- Tailwind CSS
+- shadcn/ui
+- Local Storage para persistencia de datos
+
+## Contribuir
+
+1. Fork el proyecto
+2. Crea tu rama de característica (`git checkout -b feature/NuevaCaracteristica`)
+3. Commit tus cambios (`git commit -m 'Agrega nueva característica'`)
+4. Push a la rama (`git push origin feature/NuevaCaracteristica`)
+5. Abre un Pull Request
+
+## Licencia
+
+MIT
